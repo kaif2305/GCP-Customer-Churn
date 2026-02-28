@@ -1,0 +1,4 @@
+pandas
+scikit-learn>=1.0.0
+fsspec
+gcsfs>=2020.4.0

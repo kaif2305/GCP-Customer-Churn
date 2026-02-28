@@ -1,0 +1,19 @@
+2026-02-27 23:50:54,774 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2026-02-27 23:50:54,780 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2026-02-27 23:50:54,783 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--format: "value(projectNumber)", PROJECT_ID_OR_NUMBER: "project-230934ed-7015-46b8-afc"]
+2026-02-27 23:50:54,784 DEBUG    root            On GCE from disk cache: True
+2026-02-27 23:50:54,793 DEBUG    root            On GCE from memory cache: True
+2026-02-27 23:50:54,802 DEBUG    root            On GCE from memory cache: True
+2026-02-27 23:50:54,812 DEBUG    root            On GCE from memory cache: True
+2026-02-27 23:50:54,829 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1721660960-compute@developer.gserviceaccount.com/?recursive=true
+2026-02-27 23:50:54,832 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2026-02-27 23:50:54,833 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1721660960-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 152
+2026-02-27 23:50:54,834 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1721660960-compute@developer.gserviceaccount.com/token
+2026-02-27 23:50:54,836 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1721660960-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 870
+2026-02-27 23:50:54,855 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2026-02-27 23:50:54,914 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/project-230934ed-7015-46b8-afc?alt=json HTTP/1.1" 200 None
+2026-02-27 23:50:54,915 DEBUG    root            Chosen display Format:default value(projectNumber)
+2026-02-27 23:50:54,916 INFO     root            Display format: "default value(projectNumber)"
+2026-02-27 23:50:54,964 INFO     ___FILE_ONLY___ 1721660960
+
+2026-02-27 23:50:54,974 DEBUG    root            SDK update checks are disabled.

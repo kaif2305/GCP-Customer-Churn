@@ -1,0 +1,153 @@
+2026-02-28 00:06:15,540 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2026-02-28 00:06:15,542 DEBUG    root            Running [gcloud.init] with arguments: []
+2026-02-28 00:06:15,542 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2026-02-28 00:06:15,544 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2026-02-28 00:06:15,546 DEBUG    root            On GCE from disk cache: True
+2026-02-28 00:06:15,558 INFO     ___FILE_ONLY___ compute:
+  region: us-central1
+core:
+  account: 1721660960-compute@developer.gserviceaccount.com
+  disable_usage_reporting: 'True'
+  project: project-230934ed-7015-46b8-afc
+  universe_domain: googleapis.com
+dataproc:
+  region: us-central1
+
+2026-02-28 00:06:15,558 INFO     ___FILE_ONLY___ 
+
+2026-02-28 00:07:12,303 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2026-02-28 00:07:12,303 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2026-02-28 00:07:12,303 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2026-02-28 00:07:12,307 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2026-02-28 00:07:12,308 INFO     ___FILE_ONLY___ Checking network connection...
+2026-02-28 00:07:12,310 DEBUG    root            On GCE from memory cache: True
+2026-02-28 00:07:12,312 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): accounts.google.com:443
+2026-02-28 00:07:12,348 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET / HTTP/1.1" 302 365
+2026-02-28 00:07:12,369 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /ServiceLogin?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F HTTP/1.1" 302 0
+2026-02-28 00:07:12,392 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /InteractiveLogin?continue=https://accounts.google.com/&followup=https://accounts.google.com/&passive=1209600&dsh=S-1945731175:1772237232364383&ifkv=ASfE1-ps87Xnik62ggTUatc_3IdbyGy9HTlnGxDP2u2Z8BG9jN36doMcHUF7ixBckR0gWmzWxKo0jA HTTP/1.1" 302 555
+2026-02-28 00:07:12,422 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&dsh=S-1945731175%3A1772237232364383&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=ASfE1-pPe5HjBqKd44ARyCfjhRYPL-htd-kQZ3TY1pj6X5EW3jjxbH35vGsCXHw79VNa4H7rdcgM_Q&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin HTTP/1.1" 200 None
+2026-02-28 00:07:12,448 DEBUG    root            On GCE from memory cache: True
+2026-02-28 00:07:12,449 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2026-02-28 00:07:12,459 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1beta1/projects HTTP/1.1" 401 None
+2026-02-28 00:07:12,461 DEBUG    root            On GCE from memory cache: True
+2026-02-28 00:07:12,462 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.googleapis.com:443
+2026-02-28 00:07:12,477 DEBUG    urllib3.connectionpool https://www.googleapis.com:443 "GET /auth/cloud-platform HTTP/1.1" 200 14
+2026-02-28 00:07:12,479 DEBUG    root            On GCE from memory cache: True
+2026-02-28 00:07:12,480 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2026-02-28 00:07:12,641 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 25049
+2026-02-28 00:07:12,709 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2026-02-28 00:07:12,709 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2026-02-28 00:07:20,496 INFO     ___FILE_ONLY___ You are signed in as: [1721660960-compute@developer.gserviceaccount.com].
+
+
+2026-02-28 00:07:20,498 DEBUG    root            On GCE from memory cache: True
+2026-02-28 00:07:20,517 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2026-02-28 00:07:20,684 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=201 HTTP/1.1" 200 None
+2026-02-28 00:07:24,212 INFO     ___FILE_ONLY___ Your current project has been set to: [project-230934ed-7015-46b8-afc].
+
+
+2026-02-28 00:07:24,297 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2026-02-28 00:07:24,335 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2026-02-28 00:07:24,337 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2026-02-28 00:07:24,338 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2026-02-28 00:07:24,340 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2026-02-28 00:07:24,342 DEBUG    root            On GCE from memory cache: True
+2026-02-28 00:07:24,555 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2026-02-28 00:07:24,719 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/project-230934ed-7015-46b8-afc?alt=json HTTP/1.1" 403 None
+2026-02-28 00:07:24,721 DEBUG    root            Chosen display Format:list[title="Could not fetch resource:",always-display-title]
+2026-02-28 00:07:24,722 DEBUG    root            (gcloud.compute.project-info.describe) Could not fetch resource:
+ - Required 'compute.projects.get' permission for 'projects/project-230934ed-7015-46b8-afc'
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 944, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 967, in Run
+    resources = command_instance.Run(args)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/compute/project_info/describe.py", line 37, in Run
+    return client.MakeRequests([(client.apitools_client.projects, 'Get',
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 client.messages.ComputeProjectsGetRequest(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                     project=project_ref.projectId))])[0]
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 145, in MakeRequests
+    utils.RaiseToolException(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        errors, error_message='Could not fetch resource:')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 139, in RaiseToolException
+    RaiseException(problems, calliope_exceptions.ToolException, error_message)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 148, in RaiseException
+    raise exception(
+        ConstructList(error_message or 'Some requests did not succeed:',
+                      ParseErrors(errors)))
+googlecloudsdk.calliope.exceptions.ToolException: Could not fetch resource:
+ - Required 'compute.projects.get' permission for 'projects/project-230934ed-7015-46b8-afc'
+
+2026-02-28 00:07:24,727 ERROR    root            (gcloud.compute.project-info.describe) Could not fetch resource:
+ - Required 'compute.projects.get' permission for 'projects/project-230934ed-7015-46b8-afc'
+
+2026-02-28 00:07:24,730 INFO     root            [compute project-info describe --quiet] has failed
+
+2026-02-28 00:07:24,730 INFO     ___FILE_ONLY___ Not setting default zone/region (this feature makes it easier to use
+[gcloud compute] by setting an appropriate default value for the
+--zone and --region flag).
+See https://cloud.google.com/compute/docs/gcloud-compute section on how to set
+default compute region and zone manually. If you would like [gcloud init] to be
+able to do this for you the next time you run it, make sure the
+Compute Engine API is enabled for your project on the
+https://console.developers.google.com/apis page.
+
+
+2026-02-28 00:07:24,730 DEBUG    root            Executing command: ['/usr/lib/google-cloud-sdk/bin/gsutil', 'config', '-n', '-o', '/home/jupyter/.boto']
+2026-02-28 00:07:26,333 DEBUG    ___FILE_ONLY___ 
+2026-02-28 00:07:26,333 DEBUG    ___FILE_ONLY___ This command will create a boto config file at /home/jupyter/.boto
+containing your credentials, based on your responses to the following
+questions.
+
+Boto config file "/home/jupyter/.boto" created. If you need to use a
+proxy to access the Internet please see the instructions in that file.
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/home/jupyter/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ The Google Cloud CLI is configured and ready to use!
+
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ * Commands that require authentication will use 1721660960-compute@developer.gserviceaccount.com by default
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ * Commands will reference project `project-230934ed-7015-46b8-afc` by default
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2026-02-28 00:07:26,334 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2026-02-28 00:07:26,335 INFO     ___FILE_ONLY___ * Run `gcloud topic --help` to learn about advanced features of the CLI like arg files and output formatting
+
+2026-02-28 00:07:26,335 INFO     ___FILE_ONLY___ * Run `gcloud cheat-sheet` to see a roster of go-to `gcloud` commands.
+
+2026-02-28 00:07:26,335 DEBUG    root            Chosen display Format:default
+2026-02-28 00:07:26,336 INFO     root            Display format: "default"
+2026-02-28 00:07:26,342 DEBUG    root            SDK update checks are disabled.

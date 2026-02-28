@@ -1,0 +1,9 @@
+{
+  "theme": "Default Light",
+  "selectedAuthType": "vertex-ai",
+  "security": {
+    "auth": {
+      "selectedType": "vertex-ai"
+    }
+  }
+}

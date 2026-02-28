@@ -1,0 +1,9 @@
+[compute]
+
+[dataproc]
+region = us-central1
+
+[core]
+account = 1721660960-compute@developer.gserviceaccount.com
+project = project-230934ed-7015-46b8-afc
+

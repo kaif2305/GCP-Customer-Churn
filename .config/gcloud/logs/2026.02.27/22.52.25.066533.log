@@ -1,0 +1,10 @@
+2026-02-27 22:52:25,071 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2026-02-27 22:52:25,082 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2026-02-27 22:52:25,085 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "project"]
+2026-02-27 22:52:25,086 DEBUG    root            Failed to read GCE cache file: [Errno 2] No such file or directory: '/home/jupyter/.config/gcloud/gce'
+2026-02-27 22:52:25,091 DEBUG    root            On GCE from server: True
+2026-02-27 22:52:25,094 DEBUG    root            Chosen display Format:value(.)
+2026-02-27 22:52:25,095 INFO     root            Display format: "value(.)"
+2026-02-27 22:52:25,095 INFO     ___FILE_ONLY___ project-230934ed-7015-46b8-afc
+
+2026-02-27 22:52:25,180 DEBUG    root            SDK update checks are disabled.

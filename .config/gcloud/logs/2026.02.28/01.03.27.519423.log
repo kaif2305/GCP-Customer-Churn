@@ -1,0 +1,20 @@
+2026-02-28 01:03:27,520 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2026-02-28 01:03:27,522 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'docker_helper']
+2026-02-28 01:03:27,524 DEBUG    root            Running [gcloud.auth.docker-helper] with arguments: [METHOD: "get"]
+2026-02-28 01:03:27,527 DEBUG    root            On GCE from disk cache: True
+2026-02-28 01:03:27,532 DEBUG    root            On GCE from memory cache: True
+2026-02-28 01:03:27,543 DEBUG    root            On GCE from memory cache: True
+2026-02-28 01:03:27,555 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1721660960-compute@developer.gserviceaccount.com/?recursive=true
+2026-02-28 01:03:27,558 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2026-02-28 01:03:27,559 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1721660960-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 152
+2026-02-28 01:03:27,560 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1721660960-compute@developer.gserviceaccount.com/token
+2026-02-28 01:03:27,562 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1721660960-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 869
+2026-02-28 01:03:27,568 DEBUG    root            Chosen display Format:json
+2026-02-28 01:03:27,569 INFO     root            Display format: "json"
+2026-02-28 01:03:27,616 INFO     ___FILE_ONLY___ {
+  "Secret": "ya29.c.c0AZ4bNpaecEG6xuNPjdRV_CvRWy9phAOn0rn2Jc3f5Qlr4b_bnezqtdnyM4NJs39wNMIw_IMFFDNIF2ytYgKoYhHUhnxaCsbGIHttsSPfLVL1BGteDaIvbnimCCA6-DsleCJvvOiPB5wst4tVA1vGQE8U3OBzlHx8KLga38JNWRXKVTbWb27IU-Bbz0VkHlfkiqxcP6zMPp2wyf188Spx-Lm0O4P-ODZHmlAWvCtPGAqkdhrVo3bqmyIW5G_PE5dQcZcsHGNgKwb-zr-N-iKjLOtRNGdeonaStKFR2c-UTZGTXGEN8glfS5Ze-8CQu0VwTTjQBNMgCLmA_d0IrbK4u64F-Gi9zYzrLS-Ckc1d4GpCbjNYmewUJedcW9A5vXFWGUBpWNClL9mFMt28F-oG412D-khtnqgdpBvYdeXha8wZB4VxSRpxohh64lihF26Woltja4IVduSktfV7bYyi6mg4nU9Z8yjQRfhfcpUw64vpVnnadVylhRSIrI6eUMkiIw8xwUfU0BRvlqxeVMtmY6yjV7c5SSw7gezb9dsrawrqe9-7s3i9l03xisF7bVjkxku_uincYges_VSt1MiuOYB591SSf_UutoStdR7ucajtQt7zrVVcovYqtJhh5dd-gxFr1ZuVijutRkFUm0d5j0j54_S_JbloFqMByozjd7fdumnOUXmqy3U9-9c_YvWWlMrZ08h7fBcSsBUhpSXcOZSko093oIQIUZel_J_mXQOaFtJuZ4oWSB_-mwr9ej0RRvMZ0g3Se0lwO8RM5z_e0d015FdFkddynM-kdwF8mqQ2nXzXxWjx5m0gVFfmwJoMhn95op7eRtdJeiY8IiWiZx0Q3xIhqyzli6yMzr6ygJRpIlq-zY78o2Oqxnxf71BJ-rdz7qXh55MhZvrOF5kqgSrOvUX0SIjnxWUMOuxdB9qSvze5FFjhgIIqSX82JjFX6z2-Qnz2iYVXI2WuQ___qX6eY4g08whi8lJq10BvR0pn_My_RxS71mw",
+  "Username": "_dcgcloud_token"
+}
+2026-02-28 01:03:27,616 INFO     ___FILE_ONLY___ 
+
+2026-02-28 01:03:27,625 DEBUG    root            SDK update checks are disabled.
