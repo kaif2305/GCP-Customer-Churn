@@ -1,0 +1,13 @@
+2026-02-28 03:49:21,763 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2026-02-28 03:49:21,946 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2026-02-28 03:49:21,949 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "compute/region", VALUE: "us-central1"]
+2026-02-28 03:49:21,951 DEBUG    root            On GCE from disk cache: True
+2026-02-28 03:49:21,954 DEBUG    root            On GCE from memory cache: True
+2026-02-28 03:49:22,186 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2026-02-28 03:49:22,345 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/project-230934ed-7015-46b8-afc/regions/us-central1?alt=json HTTP/1.1" 403 None
+2026-02-28 03:49:22,347 WARNING  root            Property validation for compute/region was skipped.
+2026-02-28 03:49:22,349 INFO     ___FILE_ONLY___ Updated property [compute/region].
+
+2026-02-28 03:49:22,350 DEBUG    root            Chosen display Format:default
+2026-02-28 03:49:22,351 INFO     root            Display format: "default"
+2026-02-28 03:49:22,357 DEBUG    root            SDK update checks are disabled.
